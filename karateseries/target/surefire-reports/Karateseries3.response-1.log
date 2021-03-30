@@ -1,0 +1,35 @@
+16:58:03.899 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:58:04.353 request:
+1 > GET https://gorest.co.in/public-api/users?name=Varma&status=inactive
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_162-ea)
+
+16:58:05.124 response time in milliseconds: 764.20
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 29 Mar 2021 11:28:05 GMT
+1 < ETag: W/"082d3c0de1618b5ff9500dca2bb60186"
+1 < Expect-CT: enforce; max-age=3600
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: [SAMEORIGIN, sameorigin]
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: a8e1ece7-5585-47d1-bd68-31247cf6c0be
+1 < X-Runtime: 0.007090
+1 < X-XSS-Protection: 1; mode=block
+{"code":200,"meta":{"pagination":{"total":11,"pages":1,"page":1,"limit":20}},"data":[{"id":67,"name":"Lai Varman","email":"lai_varman@frami-cummerata.io","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:05.277+05:30","updated_at":"2021-03-29T03:50:05.277+05:30"},{"id":255,"name":"Chitrali Varma","email":"varma_chitrali@nikolaus.info","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:08.109+05:30","updated_at":"2021-03-29T03:50:08.109+05:30"},{"id":348,"name":"Lavanya Varma","email":"lavanya_varma@flatley.co","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:09.420+05:30","updated_at":"2021-03-29T03:50:09.420+05:30"},{"id":524,"name":"Tejas Varman","email":"tejas_varman@prosacco-kertzmann.info","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:12.316+05:30","updated_at":"2021-03-29T03:50:12.316+05:30"},{"id":528,"name":"Anasuya Varman","email":"varman_anasuya@zieme.io","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:12.369+05:30","updated_at":"2021-03-29T03:50:12.369+05:30"},{"id":620,"name":"Surya Varma","email":"varma_surya@mckenzie.net","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:13.815+05:30","updated_at":"2021-03-29T03:50:13.815+05:30"},{"id":656,"name":"Charak Varman","email":"varman_charak@jacobs.io","gender":"Male","status":"Inactive","created_at":"2021-03-29T03:50:14.360+05:30","updated_at":"2021-03-29T03:50:14.360+05:30"},{"id":827,"name":"Adityanandana Varman IV","email":"varman_adityanandana_iv@spencer-okuneva.com","gender":"Male","status":"Inactive","created_at":"2021-03-29T03:50:17.126+05:30","updated_at":"2021-03-29T03:50:17.126+05:30"},{"id":997,"name":"Oormila Varman","email":"varman_oormila@greenholt-white.co","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:19.655+05:30","updated_at":"2021-03-29T03:50:19.655+05:30"},{"id":1208,"name":"Dayaananda Varma DDS","email":"dds_dayaananda_varma@johnston.com","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:22.787+05:30","updated_at":"2021-03-29T03:50:22.787+05:30"},{"id":1256,"name":"Deb Varman DC","email":"dc_deb_varman@hand.name","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:23.532+05:30","updated_at":"2021-03-29T03:50:23.532+05:30"}]}
+
+der":"Female","status":"Inactive","created_at":"2021-03-29T03:50:12.369+05:30","updated_at":"2021-03-29T03:50:12.369+05:30"},{"id":620,"name":"Surya Varma","email":"varma_surya@mckenzie.net","gender":"Female","status":"Inactive","created_at":"2021-03-29T03:50:13.815+05:30","updated_at":"2021-03-29T03:50:13.815+05:30"},{"id":656,"name":"Charak Varman","email":"varman_charak@jacobs.io","gender":"Male","status":"Inactive","created_at":"2021-03-29T03:50:14.360+05:30","updated_at":"2021-03-29T03:50:14.360+05:30"},{"id":714,"name":"Goswamee Varma","email":"goswamee_varma@torp-kulas.net","gender":"Female","status":"Active","created_at":"2021-03-29T03:50:15.339+05:30","updated_at":"2021-03-29T03:50:15.339+05:30"},{"id":768,"name":"Chandraprabha Varman Ret.","email":"ret_varman_chandraprabha@moore-gislason.net","gender":"Male","status":"Active","created_at":"2021-03-29T03:50:16.284+05:30","updated_at":"2021-03-29T03:50:16.284+05:30"},{"id":777,"name":"Parvati Varma","email":"varma_parvati@moore.org","gender":"Female","status":"Active","created_at":"2021-03-29T03:50:16.400+05:30","updated_at":"2021-03-29T03:50:16.400+05:30"},{"id":818,"name":"Chandi Varma V","email":"varma_v_chandi@stroman.info","gender":"Male","status":"Active","created_at":"2021-03-29T03:50:16.981+05:30","updated_at":"2021-03-29T03:50:16.981+05:30"},{"id":827,"name":"Adityanandana Varman IV","email":"varman_adityanandana_iv@spencer-okuneva.com","gender":"Male","status":"Inactive","created_at":"2021-03-29T03:50:17.126+05:30","updated_at":"2021-03-29T03:50:17.126+05:30"},{"id":906,"name":"Amb. Satyen Varma","email":"satyen_amb_varma@wunsch.biz","gender":"Male","status":"Active","created_at":"2021-03-29T03:50:18.336+05:30","updated_at":"2021-03-29T03:50:18.336+05:30"}]}
+
+16:50:08.003 assertion failed: path: $.data[*].id[*], actual: [46,67,255,348,377,405,441,443,505,524,526,528,620,656,714,768,777,818,827,906], expected: '906', reason: actual value does not contain expected
+,"Tejas Varman","Tejas Varman","Anasuya Varman","Surya Varma","Charak Varman","Goswamee Varma","Chandraprabha Varman Ret.","Parvati Varma","Chandi Varma V","Adityanandana Varman IV","Amb. Satyen Varma"], expected: 'Lai Varma', reason: actual value does not contain expected
